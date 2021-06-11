@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	width: 100%;
+}
+.lists{
+	background-color: black;
+}
+.lists h1{
+	color: white;
+	padding :10px;
+	font-weight: 10px;
+	font-size: 25px;
+}
+.lists ul{
+    text-align: right;
+	display: inline;
+	padding: 18px;
+	word-spacing: 1.8em;
+}
+.lists li{
+	display: inline;
+
+}
+
+.lists a{
+	color: white;
+	text-decoration: none;
+}
+.lists a:hover{
+	color: red;
+}
+.image{
+	color: white;
+	width: 100%;
+	height: 600px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display:flex; 
+	align-items: center;
+	justify-content: center;
+	background-image: url("./resback.jpg");
+	text-transform: capitalize;
+	font-size: 40px;
+	font-weight: bold;
+	
+	font-style: italic;
+}
+#service h1{
+	text-transform: capitalize;
+	display:flex; 
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-style: italic;
+	text-decoration: underline;
+	padding-bottom: 15px;
+}
+#service{
+
+}
+#service .serviceitem {
+	color: white;
+	margin-top: 15px;
+	margin-right: 15%;
+	margin-left: 15%;
+	border-style: solid;
+	border-width: medium;
+	padding-right:10px ;
+	padding-left: 10px;
+	border-radius: 25px;
+	background-size: cover;
+	background-image: url(./baground.jpg);
+	object-fit: fill;
+	border: 1px solid black;
+
+
+}
+#service h2{
+	text-transform: capitalize;
+	display:flex; 
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+#footer{
+	background-color: grey;
+	padding:15px;
+	margin-top: 16px;
+}
+#footer .foocon{
+	
+	display:inline; 
+	align-items: ;
+	justify-content: center;
+	
+	color: red;
+	text-align: center;
+	
+}
